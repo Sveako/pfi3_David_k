@@ -1,0 +1,80 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="se.mah.k3.kd323b_example_expandablelist.ScheduleExpandableFragment"
+    android:background="#ff000000">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <Spinner
+            android:layout_width="170dp"
+            android:layout_height="48dp"
+            android:id="@+id/devSpinner"
+            android:layout_gravity="center_horizontal|right"
+            android:layout_marginTop="90dp"
+            android:spinnerMode="dropdown"
+            android:entries="@array/stations"
+            android:background="#d70d47a1"
+            android:popupBackground="#000000"/>
+
+        <Spinner
+            android:layout_width="170dp"
+            android:layout_height="48dp"
+            android:id="@+id/desSpinner"
+            android:layout_gravity="center_horizontal|right"
+            android:spinnerMode="dropdown"
+            android:entries="@array/stations"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="#D70D47A1"
+            android:popupBackground="#000000"/>
+
+
+
+        <ExpandableListView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/expandableListView"
+            android:layout_gravity="left|top"
+            android:groupIndicator="@null"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="-10dp" />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyle"
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/from"
+            android:id="@+id/textView3"
+            android:layout_marginStart="66dp"
+            android:layout_marginTop="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/to"
+            android:id="@+id/textView4"
+            android:layout_below="@+id/textView3"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_marginTop="30dp"
+            android:textSize="20dp"/>
+    </RelativeLayout>
+</FrameLayout>

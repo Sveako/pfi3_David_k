@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/sjj"
+    android:weightSum="1"
+    android:background="#ff7fff65">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/get_quote"
+        android:hint="quote"
+        android:id="@+id/textView"
+        android:textColor="#ff000000"
+        android:textSize="25dp" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="quot text"
+        android:id="@+id/quotText" />
+
+    <Button
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:onClick= "getQuot" />
+
+
+</LinearLayout>

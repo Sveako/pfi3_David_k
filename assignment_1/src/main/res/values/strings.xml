@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Min första App</string>
+    <string name="pfiname">Pfi3_2015</string>
+    <string name="action_settings">inställningar</string>
+    <string-array name="quotes">
+        <item>
+           "sv_only the dead have seen the end of war"
+        </item>
+        <item>
+        "sv_Don´t cry because it´s over, smile because it happened"
+        </item>
+        <item>
+            "sv_I will not say, do not weep, for not all tears are evil"
+        </item>
+    </string-array>
+    <string name="quot1">"sv_only the dead have seen the end of war"</string>
+    <string name="quot2">"sv_Don´t cry because it´s over, smile because it happened"</string>
+    <string name="quot3">"sv_I will not say, do not weep, for not all tears are evil"</string>
+    <string name="button">Nästa quote</string>
+    <string name="get_quote">Hämta citat</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My First App</string>
+    <string name="pfiname">Pfi3_2015</string>
+    <string name="action_settings">Settings</string>
+    <string name="quot1">"only the dead have seen the end of war"</string>
+    <string name="quot2">"Don´t cry because it´s over, smile because it happened"</string>
+    <string name="quot3">"I will not say, do not weep, for not all tears are evil"</string>
+    <string name="button">Next quote</string>
+    <string name="get_quote">Get Quote</string>
+</resources>
